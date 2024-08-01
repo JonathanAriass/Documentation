@@ -1,21 +1,35 @@
-class Calculator:
+class RandomClass:
     """
-    A simple calculator class that performs basic arithmetic operations.
+    This is a random class with some methods that do something.
     """
 
-    class MyClass:
-        def __init__(self):
-            """
-            Initializes an instance of MyClass.
-            """
-            self.add = lambda x, y: x + y
-            self.subtract = lambda x, y: x - y
-            self.multiply = lambda x, y: x * y
-            self.divide = lambda x, y: x / y
+    def __init__(self):
+        """
+        Initializes an instance of the RandomClass.
+        """
+        pass
 
-# Example usage
-calc = Calculator()
-print(calc.add(5, 3))  # Output: 8
-print(calc.subtract(10, 4))  # Output: 6
-print(calc.multiply(2, 6))  # Output: 12
-print(calc.divide(15, 3))  # Output: 5
+    def method1(self, param1, param2):
+        """
+        This method does something with the given parameters.
+
+        Args:
+            param1: The first parameter.
+            param2: The second parameter.
+        """
+        pass
+
+    def method2(self):
+        """
+        This method does something without any parameters.
+        """
+        pass
+
+    def method3(self, param):
+        """
+        This method does something with a single parameter.
+
+        Args:
+            param: The parameter to be used.
+        """
+        pass
