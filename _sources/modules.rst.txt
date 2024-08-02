@@ -1,0 +1,10 @@
+src
+===
+
+.. toctree::
+   :maxdepth: 4
+
+   calculator
+   fibonnaci
+   lambda
+   prime_numbers

@@ -1,0 +1,7 @@
+lambda module
+=============
+
+.. automodule:: lambda
+   :members:
+   :undoc-members:
+   :show-inheritance:
